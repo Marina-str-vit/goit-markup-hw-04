@@ -256,7 +256,7 @@ img {
 }
 
 .team-box {
-  padding: 32px 0;
+  padding-top: 32px;
 }
 
 .team-item_title {
@@ -270,6 +270,38 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.team-social-links {
+  display: flex;
+  gap: 24px;
+  flex-shrink: 0;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.team-social-links .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.team-social-links .link:hover {
+  background-color: #404bbf;
+}
+
+.team-icon {
+  display: inline-flex;
+  fill: #fff;
+}
+
+.footer-icon:hover {
+  fill: #fff;
 }
 
 .portfolio {
@@ -317,6 +349,26 @@ img {
   text-indent: 0;
 }
 
+.page-footer {
+  background: #2e2f42;
+  text-align: left;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 120px;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page-footer .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -327,13 +379,58 @@ img {
   max-width: 264px;
 }
 
-.page-footer {
-  background: #2e2f42;
-  text-align: left;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .footer-text {
   color: #f4f4fd;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.footer-media-box {
+  width: 208px;
+  height: 80px;
+  padding-top: 100px;
+  padding-bottom: 132px;
+}
+
+.footer-list-icon {
+  margin-top: 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.footer-item {
+  width: calc((100% - 48px) / 4);
+}
+
+.footer-list-icon .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.footer-list-icon .link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-icon {
+  display: inline-flex;
+  fill: #fff;
+}
+
+.footer-icon:hover {
+  fill: #fff;
 }
